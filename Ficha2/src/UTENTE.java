@@ -14,6 +14,20 @@ public class UTENTE {
 		this.peso = peso;
 		
 	}
+	
+	//Nos vários métodos recebo os parâmetros para evitar qualquer conflito com possíveis edições.
+		//pergunta C
+		/**
+		 * 
+		 * @param peso
+		 * @param altura
+		 * @return
+		 */
+		public float calculaIMC(int peso, float altura) { 
+			float imc = peso/(altura*altura);
+			return imc;
+		}
+		
 
 	public String getNome() {
 		return nome;
