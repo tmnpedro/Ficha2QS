@@ -46,4 +46,9 @@ public class UTENTE {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
+
+	@Override
+	public String toString() {
+		return "UTENTE [nome=" + nome + ", idade=" + idade + ", altura=" + altura + ", peso=" + peso + "]";
+	}
 }
